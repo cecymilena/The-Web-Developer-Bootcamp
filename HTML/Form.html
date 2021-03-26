@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form action="/form">
+    <label for="name">Type Your Name</label>
+    <input id="name" type="text" placeholder="Name" name="name">
+    <p>
+    <label for="color">Chose Your Favorite Color</label>
+    <input id="color" type="color" name="color">
+    <p>
+    <label for="birthday">What's Your Birthday?</label>
+    <input id="birthday" type="date" name="birthday">
+    <p>
+    <button>Submit</button>
+</form>
+
+<form action="https://www.reddit.com/search">
+    <input type="text" name="q">
+    <button>Search Reddit</button>
+</form>
+<p>
+</form>
+    <form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button>Search Google</button>
+</form>
+
+<h2>Checklist</h2>
+<form action="/checklistfinished">
+    <input type="checkbox" name="checklist" id="checklist">
+    <label for="checklist">Buy new Clothes</label>
+    <input type="checkbox" name="checklist" id="checklist 2">
+    <label for="checkbox 2">Go To The Supermarket</label>
+<p>
+    <h2>Shirt Size</h2>
+    <input type="radio" name="size" id="S" value="small">
+    <label for="S">S</label>
+    <input type="radio" name="size" id="M" value="medium">
+    <label for="M">M</label>
+    <input type="radio" name="size" id="L" value="large">
+    <label for="L">L</label>
+    <p>
+    <button>Ready</button>
+</form>
+
+<form action="/food">
+    <h2>Choose Your Meal</h2>
+    <label for="meal">Please Select</label>
+    <select name="meal" id="meal">
+        <option value="">--Please choose an option--</option>
+        <option value="salad">Salad</option>
+        <option value="vegetarian">Vegeterian</option>
+        <option value="vegan">Vegan</option>
+    </select>
+    <p>
+    <p>
+    <label for="range">Quantity</label>
+    <input type="range" id="range" name="range" min="1" max="10">
+    <button>Submit</button>
+    <p>
+    <label for="long text">Tell Me a History</label>
+    <br>
+    <textarea id="long text" rows="5" name="history" cols="100"></textarea>
+</form>
+</body>
+</html>
